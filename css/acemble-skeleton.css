@@ -1,0 +1,174 @@
+/* 
+ –– Project: Acemble Skeleton [ https://acemble.co ]
+ –– Version: 0.0.1 [ Alpha ]
+ –– Author & Copyright [ 2019 ]: Dishant Agnihotri [ https://dishantagnihotri.com ]
+ –– Licensed under MIT [ https://github.com/dishantagnihotri/acemble-skeleton/blob/master/LICENSE ]
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  :root {
+    --font-size: 21;
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --line-height: 1.58;  }
+
+  html {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: var(--font-family);
+    -ms-overflow-style: scrollbar;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased  }
+
+  *, *:after, *:before {
+    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    margin: 0;
+    padding: 0  }
+    
+  body {    
+      font-family: var(--font-family);
+      font-size: calc(var(--font-size) * 1px);
+      line-height: var(--line-height);
+      font-weight: 400;
+      word-wrap: break-word;
+      color: rgba(0,0,0,.84)  }
+  
+  header, footer, article, nav, section, main, summary {  display: block  }
+  img { border: 0 }
+  svg:not(:root) {  overflow: hidden  }
+  hr {
+    height: 0;
+    margin: 10px 0  }
+
+/* –– Typography
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  h1, h2, h3, h4, h5, h6, p {
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    font-weight: 300 }
+
+  h1 { font-size: calc(3.5 * var(--font-size) * 1px);  line-height: calc(4 * var(--line-height) * 1rem);   letter-spacing: -.1rem  }
+  h2 { font-size: calc(3 * var(--font-size) * 1px);    line-height: calc(3.5 * var(--line-height) * 1rem); letter-spacing: -.1rem  }
+  h3 { font-size: calc(2.8 * var(--font-size) * 1px);  line-height: calc(3 * var(--line-height) * 1rem);   letter-spacing: -.1rem  }
+  h4 { font-size: calc(2.4 * var(--font-size) * 1px);  line-height: calc(2.5 * var(--line-height) * 1rem); letter-spacing: -.08rem }
+  h5 { font-size: calc(2 * var(--font-size)  * 1px);   line-height: calc(2 * var(--line-height) * 1rem);   letter-spacing: -.05rem }
+  h6, p { font-size: calc(var(--font-size) * 1px);     line-height: calc(var(--line-height) * 1rem);       letter-spacing: 0; font-weight: 600 }
+  p  { font-weight: 400 }
+
+@media (max-width: 720px) {
+  h1 { font-size: calc(3 * var(--font-size) * 1px)         }
+  h2 { font-size: calc(2.5 * var(--font-size) * 1px)       }
+  h3 { font-size: calc(2.2 * var(--font-size) * 1px)       }
+  h4 { font-size: calc(3.8 * var(--font-size) / 2 * 1px)   }
+  h5 { font-size: calc(3.5 * var(--font-size) / 2 * 1px)   }
+  h6, p { font-size: calc(var(--font-size) * 1px)          }
+}
+
+@media (max-width: 550px) {
+  
+}
+
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline  }
+  sup { top: -0.5em  }
+  sub { bottom: -0.25em  }
+
+  a, a:active { background: transparent; color: blue; text-decoration: none }
+  a:hover, a:active { opacity: .8 }
+
+/* –– Buttons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .button, button, input[type="submit"], input[type="button"] {
+    display: inline-block;
+    padding: 0 30px;
+    color: rgba(0,0,0,.84);
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: .8px;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer }
+
+  .button:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover,
+  .button:focus, button:focus, input[type="submit"]:focus, input[type="button"]:focus {
+    opacity: .8;
+    outline: 0 }
+
+/* –– Container
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .container {
+    position: relative;
+    width: 98%;
+    margin: 0 auto; 
+    padding: 0 15px }
+
+@media (min-width: 550px) {
+  .container { width: 94% }
+}
+@media (min-width: 1000px) {
+  .container { width: 90% }
+}
+
+/* –– Alignment
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0 }
+
+  td, th { padding: 2px 4px }
+  .row {
+    display: flex;
+    flex-wrap: wrap }
+
+  .row > [class*="is-"] {
+    position: relative;
+    width: 100% }
+
+  .is-1 {    flex: 0 0 8.333333%;    max-width: 8.333333%    }
+  .is-2 {    flex: 0 0 16.666667%;   max-width: 16.666667%   }
+  .is-3 {    flex: 0 0 25%;          max-width: 25%          }
+  .is-4 {    flex: 0 0 33.333333%;   max-width: 33.333333%   }
+  .is-5 {    flex: 0 0 41.666667%;   max-width: 41.666667%   }
+  .is-6 {    flex: 0 0 50%;          max-width: 50%          }
+  .is-7 {    flex: 0 0 58.333333%;   max-width: 58.333333%   }
+  .is-8 {    flex: 0 0 66.666667%;   max-width: 66.666667%   }
+  .is-9 {    flex: 0 0 75%;          max-width: 75%          }
+  .is-10{    flex: 0 0 83.333333%;   max-width: 83.333333%   }
+  .is-11{    flex: 0 0 91.666667%;   max-width: 91.666667%   }
+  .is-12{    flex: 0 0 100%;         max-width: 100%         }
+
+@media (min-width: 720px) {
+  .is-md-1 {    flex: 0 0 8.333333%;    max-width: 8.333333%    }
+  .is-md-2 {    flex: 0 0 16.666667%;   max-width: 16.666667%   }
+  .is-md-3 {    flex: 0 0 25%;          max-width: 25%          }
+  .is-md-4 {    flex: 0 0 33.333333%;   max-width: 33.333333%   }
+  .is-md-5 {    flex: 0 0 41.666667%;   max-width: 41.666667%   }
+  .is-md-6 {    flex: 0 0 50%;          max-width: 50%          }
+  .is-md-7 {    flex: 0 0 58.333333%;   max-width: 58.333333%   }
+  .is-md-8 {    flex: 0 0 66.666667%;   max-width: 66.666667%   }
+  .is-md-9 {    flex: 0 0 75%;          max-width: 75%          }
+  .is-md-10{    flex: 0 0 83.333333%;   max-width: 83.333333%   }
+  .is-md-11{    flex: 0 0 91.666667%;   max-width: 91.666667%   }
+  .is-md-12{    flex: 0 0 100%;         max-width: 100%         }
+}
+@media (min-width: 1000px) {
+  .is-lg-1 {    flex: 0 0 8.333333%;    max-width: 8.333333%    }
+  .is-lg-2 {    flex: 0 0 16.666667%;   max-width: 16.666667%   }
+  .is-lg-3 {    flex: 0 0 25%;          max-width: 25%          }
+  .is-lg-4 {    flex: 0 0 33.333333%;   max-width: 33.333333%   }
+  .is-lg-5 {    flex: 0 0 41.666667%;   max-width: 41.666667%   }
+  .is-lg-6 {    flex: 0 0 50%;          max-width: 50%          }
+  .is-lg-7 {    flex: 0 0 58.333333%;   max-width: 58.333333%   }
+  .is-lg-8 {    flex: 0 0 66.666667%;   max-width: 66.666667%   }
+  .is-lg-9 {    flex: 0 0 75%;          max-width: 75%          }
+  .is-lg-10{    flex: 0 0 83.333333%;   max-width: 83.333333%   }
+  .is-lg-11{    flex: 0 0 91.666667%;   max-width: 91.666667%   }
+  .is-lg-12{    flex: 0 0 100%;         max-width: 100%         }
+}
