@@ -145,6 +145,18 @@
   .is-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)   }
   .is-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)   }
   .is-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)   }
+  .is-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)   }
+  .is-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)   }
+  .is-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)   }
+  .is-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)   }
+  .is-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)   }
+  .is-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)   }
+  .is-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)   }
+  .is-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)   }
+  .is-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)   }
+  .is-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)   }
+  .is-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)   }
+  .is-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)   }
 
 @media (min-width: 720px) {
   .is-md-1 {    flex: 0 0 calc(100/var(--griding-system) * 1%);       max-width: calc(100/var(--griding-system) * 1%)        }
@@ -159,6 +171,18 @@
   .is-md-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)   }
   .is-md-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)   }
   .is-md-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)   }
+  .is-md-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)   }
+  .is-md-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)   }
+  .is-md-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)   }
+  .is-md-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)   }
+  .is-md-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)   }
+  .is-md-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)   }
+  .is-md-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)   }
+  .is-md-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)   }
+  .is-md-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)   }
+  .is-md-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)   }
+  .is-md-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)   }
+  .is-md-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)   }
 }
 @media (min-width: 1000px) {
   .is-lg-1 {    flex: 0 0 calc(100/var(--griding-system) * 1%);       max-width: calc(100/var(--griding-system) * 1%)         }
@@ -173,4 +197,16 @@
   .is-lg-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)    }
   .is-lg-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)    }
   .is-lg-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)    }
+  .is-lg-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)    }
+  .is-lg-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)    }
+  .is-lg-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)    }
+  .is-lg-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)    }
+  .is-lg-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)    }
+  .is-lg-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)    }
+  .is-lg-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)    }
+  .is-lg-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)    }
+  .is-lg-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)    }
+  .is-lg-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)    }
+  .is-lg-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)    }
+  .is-lg-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)    }
 }
