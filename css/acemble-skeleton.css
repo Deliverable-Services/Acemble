@@ -4,209 +4,210 @@
  –– Author & Copyright [ 2019 ]: Dishant Agnihotri [ https://dishantagnihotri.com ]
  –– Licensed under MIT [ https://github.com/dishantagnihotri/acemble-skeleton/blob/master/LICENSE ]
  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  :root {
-    --font-size: 21;
-    --font-weight: 400;
-    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --line-height: 1.58;
-    --griding-system: 12;   }
+ :root {
+  --font-size: 21;
+  --font-weight: 400;
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --line-height: 1.58;
+  --griding-system: 12;   }
 
-  html {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    font-family: var(--font-family);
-    -ms-overflow-style: scrollbar;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased  }
+@-ms-viewport { width: device-width  }
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: var(--font-family);
+  -ms-overflow-style: scrollbar;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased  }
 
-  *, *:after, *:before {
-    box-sizing: inherit;
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    margin: 0;
-    padding: 0  }
-    
-  body {    
-      font-family: var(--font-family);
-      font-size: calc(var(--font-size) * 1px);
-      line-height: var(--line-height);
-      font-weight: var(--font-weight);
-      word-wrap: break-word;
-      color: rgba(0,0,0,.84)  }
+*, *:after, *:before {
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  margin: 0;
+  padding: 0  }
   
-  header, footer, article, nav, section, main, summary {  display: block  }
-  img { border: 0 }
-  svg:not(:root) {  overflow: hidden  }
-  hr {
-    height: 0;
-    margin: 10px 0  }
+body {    
+    font-family: var(--font-family);
+    font-size: calc(var(--font-size) * 1px);
+    line-height: var(--line-height);
+    font-weight: var(--font-weight);
+    word-wrap: break-word;
+    color: rgba(0,0,0,.84)  }
+
+header, footer, article, nav, section, main, summary {  display: block  }
+img { border: 0 }
+svg:not(:root) {  overflow: hidden  }
+hr {
+  height: 0;
+  margin: 10px 0  }
 
 /* –– Typography
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  h1, h2, h3, h4, h5, h6, p {
-    text-rendering: optimizeLegibility;
-    margin: 0;
-    font-weight: 300 }
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6, p {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  font-weight: 300 }
 
-  h1 { font-size: calc(3.5 * var(--font-size) * 1px);  line-height: calc(4 * var(--line-height) * 1rem);   letter-spacing: -.1rem  }
-  h2 { font-size: calc(3 * var(--font-size) * 1px);    line-height: calc(3.5 * var(--line-height) * 1rem); letter-spacing: -.1rem  }
-  h3 { font-size: calc(2.8 * var(--font-size) * 1px);  line-height: calc(3 * var(--line-height) * 1rem);   letter-spacing: -.1rem  }
-  h4 { font-size: calc(2.4 * var(--font-size) * 1px);  line-height: calc(2.5 * var(--line-height) * 1rem); letter-spacing: -.08rem }
-  h5 { font-size: calc(2 * var(--font-size)  * 1px);   line-height: calc(2 * var(--line-height) * 1rem);   letter-spacing: -.05rem }
-  h6, p { font-size: calc(var(--font-size) * 1px);     line-height: calc(var(--line-height) * 1rem);       letter-spacing: 0; font-weight: 600 }
-  p  { font-weight: 400 }
+h1 { font-size: calc(3.5 * var(--font-size) * 1px);  line-height: calc(4 * var(--line-height) * 1rem);   letter-spacing: -.1rem  }
+h2 { font-size: calc(3 * var(--font-size) * 1px);    line-height: calc(3.5 * var(--line-height) * 1rem); letter-spacing: -.1rem  }
+h3 { font-size: calc(2.8 * var(--font-size) * 1px);  line-height: calc(3 * var(--line-height) * 1rem);   letter-spacing: -.1rem  }
+h4 { font-size: calc(2.4 * var(--font-size) * 1px);  line-height: calc(2.5 * var(--line-height) * 1rem); letter-spacing: -.08rem }
+h5 { font-size: calc(2 * var(--font-size)  * 1px);   line-height: calc(2 * var(--line-height) * 1rem);   letter-spacing: -.05rem }
+h6, p { font-size: calc(var(--font-size) * 1px);     line-height: calc(var(--line-height) * 1rem);       letter-spacing: 0; font-weight: 600 }
+p  { font-weight: 400 }
 
 @media (max-width: 720px) {
-  h1 { font-size: calc(3 * var(--font-size) * 1px)         }
-  h2 { font-size: calc(2.5 * var(--font-size) * 1px)       }
-  h3 { font-size: calc(2.2 * var(--font-size) * 1px)       }
-  h4 { font-size: calc(3.8 * var(--font-size) / 2 * 1px)   }
-  h5 { font-size: calc(3.5 * var(--font-size) / 2 * 1px)   }
-  h6, p { font-size: calc(var(--font-size) * 1px)          }
+h1 { font-size: calc(3 * var(--font-size) * 1px)         }
+h2 { font-size: calc(2.5 * var(--font-size) * 1px)       }
+h3 { font-size: calc(2.2 * var(--font-size) * 1px)       }
+h4 { font-size: calc(3.8 * var(--font-size) / 2 * 1px)   }
+h5 { font-size: calc(3.5 * var(--font-size) / 2 * 1px)   }
+h6, p { font-size: calc(var(--font-size) * 1px)          }
 }
 
 @media (max-width: 550px) {
-  
+
 }
 
-  sub, sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline  }
-  sup { top: -0.5em  }
-  sub { bottom: -0.25em  }
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline  }
+sup { top: -0.5em  }
+sub { bottom: -0.25em  }
 
-  a, a:active { background: transparent; color: blue; text-decoration: none }
-  a:hover, a:active { opacity: .8 }
+a, a:active { background: transparent; color: blue; text-decoration: none }
+a:hover, a:active { opacity: .8 }
 
 /* –– Buttons
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .button, button, input[type="submit"], input[type="button"] {
-    display: inline-block;
-    padding: 0 30px;
-    color: rgba(0,0,0,.84);
-    font-size: 14px;
-    line-height: 36px;
-    letter-spacing: .8px;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: transparent;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    cursor: pointer }
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button, button, input[type="submit"], input[type="button"] {
+  display: inline-block;
+  padding: 0 30px;
+  color: rgba(0,0,0,.84);
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: .8px;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer }
 
-  .button:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover,
-  .button:focus, button:focus, input[type="submit"]:focus, input[type="button"]:focus {
-    opacity: .8;
-    outline: 0 }
+.button:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover,
+.button:focus, button:focus, input[type="submit"]:focus, input[type="button"]:focus {
+  opacity: .8;
+  outline: 0 }
 
 /* –– Container
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .container {
-    position: relative;
-    width: 98%;
-    margin: 0 auto; 
-    padding: 0 15px }
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 98%;
+  margin: 0 auto; 
+  padding: 0 15px }
 
 @media (min-width: 550px) {
-  .container { width: 94% }
+.container { width: 94% }
 }
 @media (min-width: 1000px) {
-  .container { width: 90% }
+.container { width: 90% }
 }
 
 /* –– Alignment
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  table {
-    border-collapse: collapse;
-    border-spacing: 0 }
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+  border-collapse: collapse;
+  border-spacing: 0 }
 
-  td, th { padding: 2px 4px }
-  .row {
-    display: flex;
-    flex-wrap: wrap }
+td, th { padding: 2px 4px }
+.row {
+  display: flex;
+  flex-wrap: wrap }
 
-  .row > [class*="is-"] {
-    position: relative;
-    width: 100% }
+.row > [class*="is-"] {
+  position: relative;
+  width: 100% }
 
-  .is-1 {    flex: 0 0 calc(100/var(--griding-system) * 1%);       max-width: calc(100/var(--griding-system) * 1%);       }
-  .is-2 {    flex: 0 0 calc(2 * 100/var(--griding-system) * 1%);   max-width: calc(2 * 100/var(--griding-system) * 1%)    }
-  .is-3 {    flex: 0 0 calc(3 * 100/var(--griding-system) * 1%);   max-width: calc(3 * 100/var(--griding-system) * 1%)    }
-  .is-4 {    flex: 0 0 calc(4 * 100/var(--griding-system) * 1%);   max-width: calc(4 * 100/var(--griding-system) * 1%)    }
-  .is-5 {    flex: 0 0 calc(5 * 100/var(--griding-system) * 1%);   max-width: calc(5 * 100/var(--griding-system) * 1%)    }
-  .is-6 {    flex: 0 0 calc(6 * 100/var(--griding-system) * 1%);   max-width: calc(6 * 100/var(--griding-system) * 1%)    }
-  .is-7 {    flex: 0 0 calc(7 * 100/var(--griding-system) * 1%);   max-width: calc(7 * 100/var(--griding-system) * 1%)    }
-  .is-8 {    flex: 0 0 calc(8 * 100/var(--griding-system) * 1%);   max-width: calc(8 * 100/var(--griding-system) * 1%)    }
-  .is-9 {    flex: 0 0 calc(9 * 100/var(--griding-system) * 1%);   max-width: calc(9 * 100/var(--griding-system) * 1%)    }
-  .is-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)   }
-  .is-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)   }
-  .is-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)   }
-  .is-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)   }
-  .is-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)   }
-  .is-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)   }
-  .is-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)   }
-  .is-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)   }
-  .is-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)   }
-  .is-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)   }
-  .is-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)   }
-  .is-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)   }
-  .is-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)   }
-  .is-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)   }
-  .is-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)   }
+.is-1 {    flex: 0 0 calc(100/var(--griding-system) * 1%);       max-width: calc(100/var(--griding-system) * 1%);       }
+.is-2 {    flex: 0 0 calc(2 * 100/var(--griding-system) * 1%);   max-width: calc(2 * 100/var(--griding-system) * 1%)    }
+.is-3 {    flex: 0 0 calc(3 * 100/var(--griding-system) * 1%);   max-width: calc(3 * 100/var(--griding-system) * 1%)    }
+.is-4 {    flex: 0 0 calc(4 * 100/var(--griding-system) * 1%);   max-width: calc(4 * 100/var(--griding-system) * 1%)    }
+.is-5 {    flex: 0 0 calc(5 * 100/var(--griding-system) * 1%);   max-width: calc(5 * 100/var(--griding-system) * 1%)    }
+.is-6 {    flex: 0 0 calc(6 * 100/var(--griding-system) * 1%);   max-width: calc(6 * 100/var(--griding-system) * 1%)    }
+.is-7 {    flex: 0 0 calc(7 * 100/var(--griding-system) * 1%);   max-width: calc(7 * 100/var(--griding-system) * 1%)    }
+.is-8 {    flex: 0 0 calc(8 * 100/var(--griding-system) * 1%);   max-width: calc(8 * 100/var(--griding-system) * 1%)    }
+.is-9 {    flex: 0 0 calc(9 * 100/var(--griding-system) * 1%);   max-width: calc(9 * 100/var(--griding-system) * 1%)    }
+.is-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)   }
+.is-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)   }
+.is-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)   }
+.is-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)   }
+.is-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)   }
+.is-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)   }
+.is-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)   }
+.is-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)   }
+.is-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)   }
+.is-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)   }
+.is-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)   }
+.is-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)   }
+.is-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)   }
+.is-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)   }
+.is-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)   }
 
 @media (min-width: 720px) {
-  .is-md-1 {    flex: 0 0 calc(100/var(--griding-system) * 1%);       max-width: calc(100/var(--griding-system) * 1%)        }
-  .is-md-2 {    flex: 0 0 calc(2 * 100/var(--griding-system) * 1%);   max-width: calc(2 * 100/var(--griding-system) * 1%)    }
-  .is-md-3 {    flex: 0 0 calc(3 * 100/var(--griding-system) * 1%);   max-width: calc(3 * 100/var(--griding-system) * 1%)    }
-  .is-md-4 {    flex: 0 0 calc(4 * 100/var(--griding-system) * 1%);   max-width: calc(4 * 100/var(--griding-system) * 1%)    }
-  .is-md-5 {    flex: 0 0 calc(5 * 100/var(--griding-system) * 1%);   max-width: calc(5 * 100/var(--griding-system) * 1%)    }
-  .is-md-6 {    flex: 0 0 calc(6 * 100/var(--griding-system) * 1%);   max-width: calc(6 * 100/var(--griding-system) * 1%)    }
-  .is-md-7 {    flex: 0 0 calc(7 * 100/var(--griding-system) * 1%);   max-width: calc(7 * 100/var(--griding-system) * 1%)    }
-  .is-md-8 {    flex: 0 0 calc(8 * 100/var(--griding-system) * 1%);   max-width: calc(8 * 100/var(--griding-system) * 1%)    }
-  .is-md-9 {    flex: 0 0 calc(9 * 100/var(--griding-system) * 1%);   max-width: calc(9 * 100/var(--griding-system) * 1%)    }
-  .is-md-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)   }
-  .is-md-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)   }
-  .is-md-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)   }
-  .is-md-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)   }
-  .is-md-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)   }
-  .is-md-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)   }
-  .is-md-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)   }
-  .is-md-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)   }
-  .is-md-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)   }
-  .is-md-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)   }
-  .is-md-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)   }
-  .is-md-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)   }
-  .is-md-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)   }
-  .is-md-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)   }
-  .is-md-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)   }
+.is-md-1 {    flex: 0 0 calc(100/var(--griding-system) * 1%);       max-width: calc(100/var(--griding-system) * 1%)        }
+.is-md-2 {    flex: 0 0 calc(2 * 100/var(--griding-system) * 1%);   max-width: calc(2 * 100/var(--griding-system) * 1%)    }
+.is-md-3 {    flex: 0 0 calc(3 * 100/var(--griding-system) * 1%);   max-width: calc(3 * 100/var(--griding-system) * 1%)    }
+.is-md-4 {    flex: 0 0 calc(4 * 100/var(--griding-system) * 1%);   max-width: calc(4 * 100/var(--griding-system) * 1%)    }
+.is-md-5 {    flex: 0 0 calc(5 * 100/var(--griding-system) * 1%);   max-width: calc(5 * 100/var(--griding-system) * 1%)    }
+.is-md-6 {    flex: 0 0 calc(6 * 100/var(--griding-system) * 1%);   max-width: calc(6 * 100/var(--griding-system) * 1%)    }
+.is-md-7 {    flex: 0 0 calc(7 * 100/var(--griding-system) * 1%);   max-width: calc(7 * 100/var(--griding-system) * 1%)    }
+.is-md-8 {    flex: 0 0 calc(8 * 100/var(--griding-system) * 1%);   max-width: calc(8 * 100/var(--griding-system) * 1%)    }
+.is-md-9 {    flex: 0 0 calc(9 * 100/var(--griding-system) * 1%);   max-width: calc(9 * 100/var(--griding-system) * 1%)    }
+.is-md-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)   }
+.is-md-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)   }
+.is-md-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)   }
+.is-md-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)   }
+.is-md-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)   }
+.is-md-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)   }
+.is-md-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)   }
+.is-md-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)   }
+.is-md-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)   }
+.is-md-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)   }
+.is-md-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)   }
+.is-md-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)   }
+.is-md-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)   }
+.is-md-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)   }
+.is-md-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)   }
 }
 @media (min-width: 1000px) {
-  .is-lg-1 {    flex: 0 0 calc(100/var(--griding-system) * 1%);       max-width: calc(100/var(--griding-system) * 1%)         }
-  .is-lg-2 {    flex: 0 0 calc(2 * 100/var(--griding-system) * 1%);   max-width: calc(2 * 100/var(--griding-system) * 1%)     }
-  .is-lg-3 {    flex: 0 0 calc(3 * 100/var(--griding-system) * 1%);   max-width: calc(3 * 100/var(--griding-system) * 1%)     }
-  .is-lg-4 {    flex: 0 0 calc(4 * 100/var(--griding-system) * 1%);   max-width: calc(4 * 100/var(--griding-system) * 1%)     }
-  .is-lg-5 {    flex: 0 0 calc(5 * 100/var(--griding-system) * 1%);   max-width: calc(5 * 100/var(--griding-system) * 1%)     }
-  .is-lg-6 {    flex: 0 0 calc(6 * 100/var(--griding-system) * 1%);   max-width: calc(6 * 100/var(--griding-system) * 1%)     }
-  .is-lg-7 {    flex: 0 0 calc(7 * 100/var(--griding-system) * 1%);   max-width: calc(7 * 100/var(--griding-system) * 1%)     }
-  .is-lg-8 {    flex: 0 0 calc(8 * 100/var(--griding-system) * 1%);   max-width: calc(8 * 100/var(--griding-system) * 1%)     }
-  .is-lg-9 {    flex: 0 0 calc(9 * 100/var(--griding-system) * 1%);   max-width: calc(9 * 100/var(--griding-system) * 1%)     }
-  .is-lg-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)    }
-  .is-lg-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)    }
-  .is-lg-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)    }
-  .is-lg-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)    }
-  .is-lg-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)    }
-  .is-lg-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)    }
-  .is-lg-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)    }
-  .is-lg-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)    }
-  .is-lg-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)    }
-  .is-lg-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)    }
-  .is-lg-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)    }
-  .is-lg-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)    }
-  .is-lg-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)    }
-  .is-lg-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)    }
-  .is-lg-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)    }
+.is-lg-1 {    flex: 0 0 calc(100/var(--griding-system) * 1%);       max-width: calc(100/var(--griding-system) * 1%)         }
+.is-lg-2 {    flex: 0 0 calc(2 * 100/var(--griding-system) * 1%);   max-width: calc(2 * 100/var(--griding-system) * 1%)     }
+.is-lg-3 {    flex: 0 0 calc(3 * 100/var(--griding-system) * 1%);   max-width: calc(3 * 100/var(--griding-system) * 1%)     }
+.is-lg-4 {    flex: 0 0 calc(4 * 100/var(--griding-system) * 1%);   max-width: calc(4 * 100/var(--griding-system) * 1%)     }
+.is-lg-5 {    flex: 0 0 calc(5 * 100/var(--griding-system) * 1%);   max-width: calc(5 * 100/var(--griding-system) * 1%)     }
+.is-lg-6 {    flex: 0 0 calc(6 * 100/var(--griding-system) * 1%);   max-width: calc(6 * 100/var(--griding-system) * 1%)     }
+.is-lg-7 {    flex: 0 0 calc(7 * 100/var(--griding-system) * 1%);   max-width: calc(7 * 100/var(--griding-system) * 1%)     }
+.is-lg-8 {    flex: 0 0 calc(8 * 100/var(--griding-system) * 1%);   max-width: calc(8 * 100/var(--griding-system) * 1%)     }
+.is-lg-9 {    flex: 0 0 calc(9 * 100/var(--griding-system) * 1%);   max-width: calc(9 * 100/var(--griding-system) * 1%)     }
+.is-lg-10{    flex: 0 0 calc(10 * 100/var(--griding-system) * 1%);  max-width: calc(10 * 100/var(--griding-system) * 1%)    }
+.is-lg-11{    flex: 0 0 calc(11 * 100/var(--griding-system) * 1%);  max-width: calc(11 * 100/var(--griding-system) * 1%)    }
+.is-lg-12{    flex: 0 0 calc(12 * 100/var(--griding-system) * 1%);  max-width: calc(12 * 100/var(--griding-system) * 1%)    }
+.is-lg-13{    flex: 0 0 calc(13 * 100/var(--griding-system) * 1%);  max-width: calc(13 * 100/var(--griding-system) * 1%)    }
+.is-lg-14{    flex: 0 0 calc(14 * 100/var(--griding-system) * 1%);  max-width: calc(14 * 100/var(--griding-system) * 1%)    }
+.is-lg-15{    flex: 0 0 calc(15 * 100/var(--griding-system) * 1%);  max-width: calc(15 * 100/var(--griding-system) * 1%)    }
+.is-lg-16{    flex: 0 0 calc(16 * 100/var(--griding-system) * 1%);  max-width: calc(16 * 100/var(--griding-system) * 1%)    }
+.is-lg-17{    flex: 0 0 calc(17 * 100/var(--griding-system) * 1%);  max-width: calc(17 * 100/var(--griding-system) * 1%)    }
+.is-lg-18{    flex: 0 0 calc(18 * 100/var(--griding-system) * 1%);  max-width: calc(18 * 100/var(--griding-system) * 1%)    }
+.is-lg-19{    flex: 0 0 calc(19 * 100/var(--griding-system) * 1%);  max-width: calc(19 * 100/var(--griding-system) * 1%)    }
+.is-lg-20{    flex: 0 0 calc(20 * 100/var(--griding-system) * 1%);  max-width: calc(20 * 100/var(--griding-system) * 1%)    }
+.is-lg-21{    flex: 0 0 calc(21 * 100/var(--griding-system) * 1%);  max-width: calc(21 * 100/var(--griding-system) * 1%)    }
+.is-lg-22{    flex: 0 0 calc(22 * 100/var(--griding-system) * 1%);  max-width: calc(22 * 100/var(--griding-system) * 1%)    }
+.is-lg-23{    flex: 0 0 calc(23 * 100/var(--griding-system) * 1%);  max-width: calc(23 * 100/var(--griding-system) * 1%)    }
+.is-lg-24{    flex: 0 0 calc(24 * 100/var(--griding-system) * 1%);  max-width: calc(24 * 100/var(--griding-system) * 1%)    }
 }
